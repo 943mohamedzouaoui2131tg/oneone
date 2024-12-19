@@ -3,6 +3,7 @@ import { getArticles } from '../redux/slices/newsSlice'
 import { useSelector , useDispatch } from 'react-redux'
 // 1
 // 2
+// 3
 const Article = () => {
     const dispatch = useDispatch()
     const {articles} = useSelector((state)=> state.allArticles)
